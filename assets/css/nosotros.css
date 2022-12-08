@@ -1,0 +1,165 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f7fcfe;
+    font-family: 'Roboto, sans-serif';
+    margin: 0;
+}
+
+h1{ font-size: 3.5em;}
+h2{ font-size: 2.7em;}
+h3{ font-size: 2em;}
+p{ font-size: 1.25em;}
+ul{ list-style: none;}
+li{ font-size:1.25em;}
+
+
+
+
+.color-acento{color:rgb(43, 165, 226)}
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+header{
+    background-color: rgb(0, 0, 0);
+
+}
+
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: rgb(43, 165, 226);
+    font-size: 1.6em;
+}
+
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+
+
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: white;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("../img/Nosotros1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#hero h1{
+    color: white;
+}
+
+
+#somos-Digital-Rise .container{
+    text-align: center;
+    padding: 200px 12px;
+}
+
+#nuestros-productos .container{
+    background-color: rgb(30,30,30);
+    color: white;
+    text-align: center;
+}
+
+#nuestros-productos .container{
+    padding: 150px 0px;
+}
+
+#nuestros-productos h2{
+    margin-top: 0;
+    font-size:3.2em ;
+}
+
+#nuestros-productos p{
+   font-display: none;
+}
+
+#nuestros-productos .carta{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+.carta :first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0,0, 0, 0.5)
+    )
+    url("../img/mision.jpg");
+}
+
+.carta :nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+    )
+    url("../img/vision.jpg");
+}
+
+.carta :nth-child(3){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0,0,0,0.5)
+    )
+    url("img/servicios.jpg");
+}
+
+#nuestros-productos .productos{
+    display: flex;
+    justify-content: center;
+ }
+
+#nuestros-productos p{
+    display: block;
+ }
+ #nuestros-productos h3{
+    margin-top: 0;
+ }
+ #nuestros-productos .carta{
+    padding: 15px;
+ }
+ #nuestros-productos .carta{
+   padding: 50px;
+   background-size: 100% 150px;
+   background-repeat: no-repeat;
+   background-position-y: 0;
+   background-color: rgba(50,50,50,0.5);
+   box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+ }
+
+ #nuestros-productos .productos{
+    display: flex;
+    justify-content: center;
+ }

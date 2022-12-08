@@ -1,0 +1,166 @@
+@import url('https://fonts.cdnfonts.com/css/ocr-a-extended');
+/*ESTILOS GENERALES*/
+
+/*color texto #011F26;*/
+/*color fondo #053452*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'OCR A Extended', sans-serif;
+    box-sizing: border-box;
+}
+header .icon img{
+    height: 100px;
+    width: auto;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px 20px;
+    background-color: #053452;
+}
+.enlaceBlanco {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.enlaceBlanco:hover{
+    text-decoration: underline;
+}
+
+
+.enlaceBlanco:visited {
+    color: white;
+}
+
+.contenedorHeader{
+    margin: auto;
+    width: 80%;
+}
+.contenedor{
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+
+}
+.productosContainer{
+    width: 65%;
+    height: 70vh;
+    /* background-color: silver; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+    
+}
+.productos{
+    width: 95%;
+    height: 100%;
+    /* background-color: red; */
+    overflow: auto;
+}
+
+.contenedorTotal{
+    width: 33%;
+    height: 80vh;
+}
+.containerTotal{
+  
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: silver;  */
+}
+.elemento{
+    height: 100px;
+    width: 100%;
+    background-color: pink;
+    margin: 10px 0;
+}
+section{
+    /* background-color: red; */
+    width: 80%;
+    margin: auto;
+    height: 200px;
+}
+table{
+    width: 100%;
+}
+thead{
+    background-color: silver;
+    line-height: 30px;
+}
+thead tr th{
+    text-align: left;
+    padding: 0 5px;
+
+}
+tbody tr td{
+    padding: 0 5px;
+    border: 1px solid black;
+
+}
+
+.thProduct{
+width: 200px;
+}
+.imagen{
+    height: 100px;
+    width: 100%;
+    background-color: steelblue;
+}
+.resumen{
+    width: 50%;
+}
+.resumenPhp{
+    width: 50%;
+
+}
+
+p{
+    padding: 10px 0;
+}
+
+
+
+/*BOTON*/
+.bn39 {
+    margin: 10px 0;
+    background-image: linear-gradient(135deg, #008aff, #86d472);
+    border-radius: 6px;
+    box-sizing: border-box;
+    color: #ffffff;
+    display: block;
+    height: 50px;
+    font-size: 1.4em;
+    font-weight: 600;
+    padding: 4px;
+    position: relative;
+    text-decoration: none;
+    width: 90%;
+    z-index: 2;
+  }
+  
+  .bn39:hover {
+    color: #fff;
+  }
+  
+  .bn39 .bn39span {
+    align-items: center;
+    background: #0e0e10;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    transition: background 0.5s ease;
+    width: 100%;
+  }
+  
+  .bn39:hover .bn39span {
+    background: transparent;
+  }
